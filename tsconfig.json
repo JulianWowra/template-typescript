@@ -6,8 +6,9 @@
 		"declaration": true,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
-		"module": "NodeNext",
-		"moduleResolution": "NodeNext",
+		"lib": ["ES2022"],
+		"module": "ESNext",
+		"moduleResolution": "bundler",
 		"noFallthroughCasesInSwitch": true,
 		"noImplicitAny": true,
 		"noImplicitReturns": true,
@@ -23,6 +24,5 @@
 		"strictPropertyInitialization": true,
 		"target": "ES2022"
 	},
-	"include": ["src"],
-	"exclude": ["node_modules", "dist"]
+	"include": ["src"]
 }
