@@ -8,17 +8,17 @@
 	"homepage": "https://julianwowra.github.io/template-typescript/",
 	"author": "Julian Wowra <development@julianwowra.de>",
 	"license": "MIT",
-	"packageManager": "pnpm@9.15.2",
-	"dependencies": {},
+	"packageManager": "pnpm@10.7.1",
 	"devDependencies": {
-		"@types/node": "^20.17.11",
-		"eslint": "9.17.0",
-		"eslint-config-prettier": "9.1.0",
-		"prettier": "3.4.2",
-		"typedoc": "~0.27.6",
-		"typedoc-github-theme": "^0.2.0",
-		"typescript": "5.7.2",
-		"typescript-eslint": "8.19.0"
+		"@eslint/js": "^9.24.0",
+		"@types/node": "^22.14.0",
+		"eslint": "9.24.0",
+		"eslint-config-prettier": "10.1.1",
+		"prettier": "3.5.3",
+		"typedoc": "~0.28.2",
+		"typedoc-github-theme": "~0.3.0",
+		"typescript": "5.8.3",
+		"typescript-eslint": "8.29.0"
 	},
 	"scripts": {
 		"build": "pnpm build:lib && pnpm build:docs",
