@@ -17,4 +17,4 @@ This TypeScript template provides a good start for TypeScript projects. It alrea
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check the [issues page](https://github.com/JulianWowra/template-typescript/issues). You can also take a look at the [contributing guide](https://github.com/JulianWowra/template-typescript/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check the [issues page](https://github.com/JulianWowra/template-typescript/issues). You can also take a look at the [contributing guide](https://github.com/JulianWowra/template-typescript/blob/main/CONTRIBUTING.md).
