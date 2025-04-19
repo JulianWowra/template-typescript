@@ -2,8 +2,17 @@
 	"name": "",
 	"description": "",
 	"version": "",
-	"main": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"type": "module",
+	"main": "./dist/cjs/index.js",
+	"module": "./dist/esm/index.js",
+	"types": "./dist/dts/index.d.ts",
+	"exports": {
+		"require": "./dist/cjs/index.js",
+		"import": "./dist/esm/index.js",
+		"deno": "./dist/esm/index.js",
+		"types": "./dist/dts/index.d.ts",
+		"default": "./dist/esm/index.js"
+	},
 	"repository": "https://github.com/JulianWowra/template-typescript",
 	"homepage": "https://julianwowra.github.io/template-typescript/",
 	"author": "Julian Wowra <development@julianwowra.de>",
@@ -24,8 +33,9 @@
 		"typescript-eslint": "8.30.1"
 	},
 	"scripts": {
-		"build": "pnpm build:lib && pnpm build:docs",
-		"build:lib": "tsc",
+		"build": "pnpm run build:esm && pnpm run build:cjs && pnpm build:docs",
+		"build:esm": "tsc -p tsconfig.esm.json",
+		"build:cjs": "tsc -p tsconfig.cjs.json",
 		"build:docs": "typedoc src --plugin typedoc-github-theme",
 		"lint": "pnpm lint:format && pnpm lint:code",
 		"lint:format": "prettier --check .",
