@@ -8,6 +8,9 @@
 	"homepage": "https://julianwowra.github.io/template-typescript/",
 	"author": "Julian Wowra <development@julianwowra.de>",
 	"license": "MIT",
+	"publishConfig": {
+		"provenance": true
+	},
 	"packageManager": "pnpm@10.8.1",
 	"dependencies": {},
 	"devDependencies": {
