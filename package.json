@@ -2,15 +2,13 @@
 	"name": "",
 	"description": "",
 	"version": "",
-	"type": "module",
-	"main": "./dist/index.cjs",
-	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"main": "./dist/cjs/index.cjs",
+	"module": "./dist/esm/index.mjs",
+	"types": "./dist/types/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/index.js",
-			"require": "./dist/index.cjs",
-			"types": "./dist/index.d.ts"
+			"import": "./dist/esm/index.mjs",
+			"require": "./dist/cjs/index.cjs"
 		}
 	},
 	"repository": "https://github.com/JulianWowra/template-typescript",
@@ -26,6 +24,7 @@
 		"eslint": "9.26.0",
 		"eslint-config-prettier": "10.1.2",
 		"prettier": "3.5.3",
+		"tsup": "^8.4.0",
 		"typedoc": "~0.28.4",
 		"typedoc-github-theme": "~0.3.0",
 		"typescript": "5.8.3",
