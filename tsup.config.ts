@@ -16,6 +16,7 @@ const sharedConfig: Options = {
 	entry: ['src/index.ts'],
 	outDir: 'dist',
 	target: 'es2024',
+	sourcemap: true,
 
 	clean: true,
 	minify: true,
