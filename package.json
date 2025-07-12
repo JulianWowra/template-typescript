@@ -12,7 +12,10 @@
 			"types": "./dist/types/index.d.ts"
 		}
 	},
-	"repository": "https://github.com/JulianWowra/template-typescript",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JulianWowra/template-typescript.git"
+	},
 	"homepage": "https://julianwowra.github.io/template-typescript/",
 	"author": "Julian Wowra <development@julianwowra.de>",
 	"license": "MIT",
